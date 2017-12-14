@@ -1,0 +1,5 @@
+baseURL = "http://104.236.39.163/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+publishDir = "docs"
