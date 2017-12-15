@@ -7,7 +7,7 @@ import daemon
 with daemon.DaemonContext():
     main()
 
-def main()
+def main():
   if (len(sys.argv) != 2 or not sys.argv[1].isdigit()):
     print 'Usage: hook <port>',
     exit()
