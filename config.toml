@@ -1,5 +1,5 @@
 baseURL = "http://104.236.39.163/"
 languageCode = "en-us"
-title = "test 2"
+title = "test 3"
 theme = "ananke"
 publishDir = "docs"
