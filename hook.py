@@ -3,6 +3,10 @@ import socket
 import sys
 import os
 
+if __name__ == "__main__":
+    with daemon.DaemonContext():
+        run()
+
 def run():
     if (len(sys.argv) != 2 or not sys.argv[1].isdigit()):
         print 'Usage: hook <port>',
@@ -20,5 +24,3 @@ def run():
         os.system("hugo -D")
 
 
-if __name__ == "__main__":
-    run()
