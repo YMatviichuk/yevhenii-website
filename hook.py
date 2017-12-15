@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
 def run():
     if (len(sys.argv) != 2 or not sys.argv[1].isdigit()):
-        print 'Usage: hook <port>',
+        print ('Usage: hook <port>'),
         exit()
 
     p = int(sys.argv[1])
