@@ -2,15 +2,11 @@
 import socket
 import sys
 import os
+import daemon
 
+with daemon.DaemonContext():
+    main()
 
-from daemonize import Daemonize
-
-if __name__ == '__main__':
-        myname=os.path.basename(sys.argv[0])
-        pidfile='/tmp/%s' % myname       # any name
-        daemon = Daemonize(app=myname,pid=pidfile, action=main)
-        daemon.start()
 def main()
   if (len(sys.argv) != 2 or not sys.argv[1].isdigit()):
     print 'Usage: hook <port>',
