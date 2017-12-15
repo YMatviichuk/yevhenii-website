@@ -2,11 +2,9 @@
 import socket
 import sys
 import os
-import daemon
 
 if __name__ == "__main__":
-    with daemon.DaemonContext():
-        run()
+    run()
 
 def run():
     if (len(sys.argv) != 2 or not sys.argv[1].isdigit()):
@@ -23,5 +21,3 @@ def run():
         l.append(c)
         os.system("git pull")
         os.system("hugo -D")
-
-
