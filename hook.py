@@ -17,5 +17,4 @@ while 1:
     l.append(c)
     os.system("^C")
     os.system("git pull")
-    os.system("hugo server -p 80 --bind="104.236.39.163" -D")
-    
+    os.system("hugo server -p 80 --bind='104.236.39.163' -D")
