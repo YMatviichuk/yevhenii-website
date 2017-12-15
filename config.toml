@@ -1,5 +1,5 @@
 baseURL = "http://104.236.39.163/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "test"
 theme = "ananke"
 publishDir = "docs"
