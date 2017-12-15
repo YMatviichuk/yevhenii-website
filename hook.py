@@ -6,7 +6,7 @@ import os
 def run():
     if (len(sys.argv) != 2 or not sys.argv[1].isdigit()):
         print 'Usage: hook <port>',
-      exit()
+        exit()
 
     p = int(sys.argv[1])
     l = []
