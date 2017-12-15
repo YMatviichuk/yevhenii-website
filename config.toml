@@ -3,5 +3,5 @@ bind = "104.236.39.163"
 port = 80
 languageCode = "en-us"
 title = "Hello, Hugo!"
-theme = "ananke"
+theme = "hugo-now-ui"
 publishDir = "docs"
