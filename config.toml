@@ -1,4 +1,4 @@
-baseURL = "http://104.236.39.163/"
+baseURL = "104.236.39.163"
 languageCode = "en-us"
 title = "test 16"
 theme = "ananke"
