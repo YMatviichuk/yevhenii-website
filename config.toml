@@ -2,6 +2,6 @@ baseURL = "104.236.39.163"
 bind = "104.236.39.163"
 port = 80
 languageCode = "en-us"
-title = "Helloo, Hugo!"
+title = "Changes!"
 theme = "ananke"
 publishDir = "docs"
